@@ -1,6 +1,6 @@
-Jan Jansen heeft kaartnummer: 325255
-Erik Materus heeft kaartnummer: 334343
-Ali Ahson heeft kaartnummer: 235434
-Eva Versteeg heeft kaartnummer: 645345
-Jan de Wilde heeft kaartnummer: 534545
-Henk de Vries heeft kaartnummer: 345355
+325255, Jan Jansen
+334343, Erik Materus
+235434, Ali Ahson
+645345, Eva Versteeg
+534545, Jan de Wilde
+345355, Henk de Vries

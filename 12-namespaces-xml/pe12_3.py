@@ -1,6 +1,6 @@
 import xmltodict
 
-with open('xml/stations.xml') as file:
+with open('../xml/stations.xml') as file:
     stations = xmltodict.parse(file.read())['Stations']['Station']
 
     print('Dit zijn de codes en types van de 4 stations:')

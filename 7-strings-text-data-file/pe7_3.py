@@ -1,4 +1,5 @@
-file = open('txt/kaartnummers.txt', 'r')
+cardnumbers = '../txt/kaartnummers.txt'
+file = open(cardnumbers, 'r')
 
 data = []
 
