@@ -14,7 +14,7 @@ def request(url):
 
 def get_station_details():
     station = input('Over welk station wilt u informatie? ').lower()
-    data = request('http://webservices.ns.nl/ns-api-avt?station=' + station)
+    data = request('https://webservices.ns.nl/ns-api-avt?station=' + station)
 
     print('\nDit zijn de vertrekkende treinen vanaf ' + station.capitalize() + ': ')
 
