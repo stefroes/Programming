@@ -1,13 +1,13 @@
-def standaardprijs(afstandKM):
-    if afstandKM <= 0:
+def standaardprijs(afstand_km):
+    if afstand_km <= 0:
         return 0
-    elif afstandKM <= 50:
-        return .8 * afstandKM
+    elif afstand_km <= 50:
+        return .8 * afstand_km
     else:
-        return .6 * afstandKM + 15
+        return .6 * afstand_km + 15
 
 
-def ritprijs(leeftijd, weekendrit, afstandKM):
+def ritprijs(leeftijd, weekendrit, afstand_km):
     discount = 1
     if leeftijd < 12 or leeftijd >= 65:
         discount -= .3
@@ -19,4 +19,4 @@ def ritprijs(leeftijd, weekendrit, afstandKM):
     if discount < 0:
         discount = 0
 
-    return round(discount * standaardprijs(afstandKM), 2)
+    return round(discount * standaardprijs(afstand_km), 2)

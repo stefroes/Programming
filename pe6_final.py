@@ -1,7 +1,7 @@
 lockers = []
 total = 12
 used = []
-filename = 'Kluizen.txt'
+filename = 'txt/kluizen.txt'
 
 
 def refresh_locker_data():

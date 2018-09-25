@@ -1,4 +1,4 @@
-file = open('Kaartnummers.txt', 'r')
+file = open('txt/kaartnummers.txt', 'r')
 
 data = []
 
@@ -10,7 +10,7 @@ biggest = max(data)
 write = 'Deze file telt ' + str(len(data)) + ' regels \n'
 write += 'Het grootste kaartnummer is: ' + biggest[0] + ' en dat staat op regel ' + str(data.index(biggest) + 1)
 
-file = open('Kaartnummers.txt', 'w')
+file = open('txt/kaartnummers.txt', 'w')
 file.write(write)
 
 file.close()
