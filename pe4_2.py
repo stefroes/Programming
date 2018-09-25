@@ -1,2 +1,2 @@
-def som(getallenLijst):
-    return sum(getallenLijst)
+def som(getallenlijst):
+    return sum(getallenlijst)

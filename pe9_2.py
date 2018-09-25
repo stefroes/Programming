@@ -1,7 +1,7 @@
 import csv
 import datetime
 
-bestand = 'Inloggers.csv'
+bestand = 'csv/inloggers.csv'
 
 with open(bestand, 'w') as file:
     writer = csv.writer(file, delimiter=';')

@@ -1,6 +1,6 @@
 import csv
 
-with open('Products.csv') as file:
+with open('csv/products.csv') as file:
     reader = csv.reader(file, delimiter=';')
     products = []
     total = 0

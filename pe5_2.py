@@ -1,4 +1,4 @@
-file = open('Kaartnummers.txt', 'r')
+file = open('txt/kaartnummers.txt', 'r')
 
 data = []
 write = ''
@@ -11,7 +11,7 @@ for i, people in enumerate(data):
     if i < (len(data) - 1):
         write += '\n'
 
-file = open('Kaartnummers.txt', 'w')
+file = open('txt/kaartnummers.txt', 'w')
 file.write(write)
 
 file.close()

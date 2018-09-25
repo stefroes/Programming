@@ -10,13 +10,13 @@ def ticker(filename):
 
 
 def get_ticker_by_company():
-	companies = ticker('Ticker.txt')
+	companies = ticker('txt/ticker.txt')
 	name = input('Enter Company name: ')
 	print('Ticker symbol: ' + companies.get(name) + '\n')
 
 
 def get_company_by_ticker():
-	companies = ticker('Ticker.txt')
+	companies = ticker('txt/ticker.txt')
 	tick = input('Enter Ticker symbol: ')
 
 	for i in companies:

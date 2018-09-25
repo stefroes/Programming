@@ -5,7 +5,7 @@ def get_time():
     return datetime.datetime.today().strftime("%a %d %b %Y, %H:%M:%S")
 
 
-file = open('Hardlopers.txt', 'a')
+file = open('txt/hardlopers.txt', 'a')
 
 while True:
     name = input('Voer naam van de harloper in: ')

@@ -1,6 +1,6 @@
 import xmltodict
 
-with open('Products.xml') as file:
+with open('xml/products.xml') as file:
     articles = xmltodict.parse(file.read())
 
     for article in enumerate(articles['artikelen']['artikel']):
