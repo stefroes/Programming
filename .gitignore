@@ -54,3 +54,6 @@ colors.scheme.xml
 debugger.xml
 editor.xml
 filetypes.xml
+
+# Private
+private/
