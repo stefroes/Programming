@@ -1,6 +1,6 @@
 import csv
 
-with open('csv/games.csv') as file:
+with open('../csv/games.csv') as file:
     reader = csv.reader(file, delimiter=';')
     scores = []
 
