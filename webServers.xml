@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="1b9f790f-e7f9-491b-82a5-7c970fac4bdb" name="pi@192.168.1.24:22" url="http:///">
-        <fileTransfer host="192.168.1.24" port="22" accessType="SFTP">
+        <fileTransfer host="192.168.42.1" port="22" accessType="SFTP">
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
