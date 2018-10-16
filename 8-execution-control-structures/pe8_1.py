@@ -1,16 +1,17 @@
 def seizoen(maand):
     maand = int(maand)
 
-    if 3 >= maand >= 1:
+    if maand == 12 or maand < 3:
         return 'Winter'
-    elif 6 >= maand >= 4:
+    elif 2 < maand < 6:
         return 'Lente'
-    elif 9 >= maand >= 7:
+    elif 5 < maand < 9:
         return 'Zomer'
-    elif 12 >= maand >= 10:
+    elif 8 < maand < 12:
         return 'Herfst'
     else:
         return False
 
 
-print(seizoen(input('Geef het maand nummer op: ')))
+while True:
+    print(seizoen(input('Geef het maand nummer op: ')))
