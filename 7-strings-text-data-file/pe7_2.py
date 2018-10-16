@@ -16,3 +16,5 @@ file = open(cardnumbers, 'w')
 file.write(write)
 
 file.close()
+
+print(write)
